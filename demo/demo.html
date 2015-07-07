@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel='stylesheet' href='demo.css' />
+  </head>
+  <body>
+
+    <div class='card index-card' style='cursor: pointer'>
+      <div class='card-transform'>
+        <div class='card-front'>
+          <h1>Front</h1>
+        </div>
+        <div class='card-back'>
+          <h1>Back</h1>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dignissim
+            leo vel nunc ultrices, et imperdiet eros molestie. Fusce vitae ligula
+            augue. Donec gravida pharetra nisi, ut bibendum magna dapibus quis.
+            Nulla facilisi. Curabitur vitae tristique neque. Donec mollis augue
+            eget fringilla luctus.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      (function() {
+        var card = document.querySelector('.card');
+        card.addEventListener('click', function(e) {
+          this.classList.toggle('card-flipped');
+        });
+      }());
+    </script>
+
+  </body>
+</html>

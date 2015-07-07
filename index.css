@@ -1,0 +1,45 @@
+@import url(http://fonts.googleapis.com/css?family=Reenie+Beanie);
+@import 'card.css'; /* TODO: this should come from a separate repo */
+
+.index-card {
+  font-family: 'Reenie Beanie', cursive;
+  color: #555;
+
+  &, & :matches(.card-front, .card-back) {
+    width: 500px;
+    height: 300px;
+  }
+
+  :matches(.card-front, .card-back) {
+    padding: 5px;
+    background-color: #fff;
+    border: 0;
+    box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+  }
+
+  .card-front {
+    h1 {
+      font-size: 48px;
+      line-height: 300px;
+      text-align: center;
+      margin: 0;
+    }
+  }
+
+  .card-back {
+    background-image:
+      linear-gradient(180deg, white 30px, #F0A4A4 30px, #F0A4A4 32px, transparent 1px),
+      repeating-linear-gradient(180deg, transparent, transparent 25px, #DDD 1px, #DDD 26px);
+    h1 {
+      font-size: 32px;
+      line-height: 30px;
+      margin: 0;
+    }
+    p {
+      font-size: 28px;
+      line-height: 26px;
+      margin: 0;
+    }
+  }
+
+}
