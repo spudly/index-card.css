@@ -1,5 +1,5 @@
 @import url(http://fonts.googleapis.com/css?family=Reenie+Beanie);
-@import 'card.css'; /* TODO: this should come from a separate repo */
+@import 'card.css';
 
 .index-card {
   font-family: 'Reenie Beanie', cursive;
