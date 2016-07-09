@@ -19,5 +19,8 @@
   },
   "dependencies": {
     "card.css": "^1.0.0"
-  }
+  },
+  "files": [
+    "index.css"
+  ]
 }
