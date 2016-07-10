@@ -4,7 +4,8 @@
   "description": "CSS for an index card",
   "style": "index.css",
   "scripts": {
-    "demo": "postcss -u postcss-import -u postcss-nested -u cssnext -o demo/demo.css index.css && open demo/demo.html"
+    "demo": "postcss -u postcss-import -u postcss-nested -u cssnext -o demo/demo.css index.css && open demo/demo.html",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
   "keywords": [
     "css"
@@ -15,7 +16,8 @@
     "cssnext": "^1.8.0",
     "postcss-cli": "^2.5.2",
     "postcss-import": "^8.1.2",
-    "postcss-nested": "^1.0.0"
+    "postcss-nested": "^1.0.0",
+    "semantic-release": "^4.3.5"
   },
   "dependencies": {
     "card.css": "^1.0.1"
