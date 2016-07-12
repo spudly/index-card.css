@@ -1,6 +1,5 @@
 {
   "name": "index-card.css",
-  "version": "1.0.2",
   "description": "CSS for an index card",
   "style": "index.css",
   "scripts": {
@@ -24,5 +23,9 @@
   },
   "files": [
     "index.css"
-  ]
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/spudly/index-card.css.git"
+  }
 }
