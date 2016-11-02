@@ -19,7 +19,7 @@
     "semantic-release": "^4.3.5"
   },
   "dependencies": {
-    "card.css": "^1.0.2"
+    "card.css": "^2.0.0"
   },
   "files": [
     "index.css"
