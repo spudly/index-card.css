@@ -16,7 +16,7 @@
     "postcss-cli": "^2.5.2",
     "postcss-import": "^8.1.2",
     "postcss-nested": "^1.0.0",
-    "semantic-release": "^4.3.5"
+    "semantic-release": "^6.3.2"
   },
   "dependencies": {
     "card.css": "^2.0.0"
