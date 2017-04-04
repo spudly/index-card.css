@@ -13,7 +13,7 @@
   "license": "MIT",
   "devDependencies": {
     "cssnext": "^1.8.0",
-    "postcss-cli": "^2.5.2",
+    "postcss-cli": "^3.1.1",
     "postcss-import": "^9.0.0",
     "postcss-nested": "^1.0.0",
     "semantic-release": "^6.3.2"
