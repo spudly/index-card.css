@@ -14,7 +14,7 @@
   "devDependencies": {
     "cssnext": "^1.8.0",
     "postcss-cli": "^2.5.2",
-    "postcss-import": "^10.0.0",
+    "postcss-import": "^11.0.0",
     "postcss-nested": "^1.0.0",
     "semantic-release": "^8.0.0"
   },
